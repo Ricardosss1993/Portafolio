@@ -1,0 +1,77 @@
+section.contacto h3.contacto__titulo{
+    font-size: 40px;
+    text-align: center;
+    color: var(--color-primario);
+}
+
+section.contacto div.contacto__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    /* height: 10vh; */
+    margin: 0px 20px;
+    /* margin-top: 180px; */
+}
+
+.contacto__p{
+    color: var(--movil-color);
+}
+
+.contacto__imagen{
+    width: 400px;
+    margin-left: 100px;
+}
+
+.nombreApellido{
+    margin-right: 80px;
+    color: var(--movil-color);
+}
+
+.correo{
+    margin-right: 80px;
+    color: var(--movil-color);
+}
+
+.asunto{
+    margin-right: 55px;
+    color: var(--movil-color);
+}
+
+.input-padron__nombreApellido{
+    width: 309px;
+}
+
+.input-padron__correo{
+    width: 309px;
+}
+
+.input-padron__asunto{
+    width: 420px ;
+}
+
+.contacto__imputs{
+    margin-bottom: 20px;
+}
+.enviar{
+    background-color: var(--color-primario);
+    color: var(--color-texto-inverso);
+    border: none;
+    font-size: 20px;
+    padding: 0.5em 1em;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    filter: brightness(130%);
+}
+
+@media (max-width: 780px){
+    .contacto__container{
+        display: flex;
+    }
+    .contacto__imagen{
+        display: none;
+    }
+}

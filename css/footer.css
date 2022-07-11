@@ -1,0 +1,25 @@
+.footer{
+    background-color: var(--color-primario);
+    text-align: center;
+    padding: 0;
+    width: 100%;
+}
+
+.footer__h2{
+    font-size: 18px;
+    color: var(--color-texto-inverso);
+}
+
+.footer__p{
+    font-size: 14px;
+    color: var(--color-texto-inverso);
+}
+
+@media (max-width: 780px){
+    .footer {
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+        max-width: 300%;
+    }
+}

@@ -1,0 +1,28 @@
+section.formacion-academica{
+    
+    background-color: var(--color-fondo-azul);
+}
+
+section.formacion-academica h3.formacion-academica__titulo{
+    font-size: 40px;
+    text-align: center;
+    color: var(--color-primario);
+}
+
+section.formacion-academica div.formacion-academica__linea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+section.formacion-academica div.formacion-academica__cajas ul{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-texto);
+    text-align: center;
+    margin-top: 20px;
+}

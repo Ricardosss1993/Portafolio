@@ -1,0 +1,66 @@
+section.experiencia-profesional h3.experiencia-profesional__titulo{
+    font-size: 40px;
+    text-align: center;
+    color: var(--color-primario);
+}
+
+section.experiencia-profesional div.experiencia-profesional__caja{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px;
+    align-items: center;
+
+}
+
+section.experiencia-profesional li.experiencia-profesional__nombre{
+    
+    color: var(--color-titulos);
+    font-size: 20px;
+}
+
+
+section.experiencia-profesional .experiencia-profesional__boton{
+    background-color: var(--color-primario);
+    
+    border: none;
+    font-size: 20px;
+    padding: 0.5em 1em;
+    border-radius: 7px;
+    cursor: pointer;
+    height: 40px;
+    
+}
+
+section.experiencia-profesional .experiencia-profesional__boton:hover {
+    filter: brightness(130%);
+}
+
+.experiencia-profesional__nombre{
+    color: var(--color-texto);
+}
+
+.experiencia-profesional__boton a{
+    color: var(--color-texto-inverso);
+}
+
+@media (max-width: 780px){
+    .experiencia-profesional{ 
+        width: 80%;
+       
+    }
+
+    .experiencia-profesional__caja{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experiencia-profesional__imagen{
+        display: flex;
+        max-width: 100%;
+    }
+    .experiencia-profesional__nombre .experiencia-profesional__boton{
+        justify-content: center;
+    }
+}

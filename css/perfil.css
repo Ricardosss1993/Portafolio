@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+.perfil-info{
+    margin-bottom: 25px;
+}
+
+.perfil-img{
+    width: 80%;
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+
+
+.perfil {
+    text-align: center;
+}
+
+.perfil-titulo{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0;
+    color: var(--color-primario);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.perfil-detalles{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3;
+    max-width: 450px;
+    margin: 20px auto;
+}
+
+.perfil-btn {
+    background-color: var(--color-primario);
+    
+    border: none;
+    font-size: 20px;
+    padding: 0.5em 1em;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.perfil-btn-a{
+    color: var(--color-texto-inverso);
+}
+
+.perfil-btn:hover{
+    filter: brightness(130%);
+}
+
+@media (min-width: 950px){
+
+    .perfil-info{
+        margin-bottom: 0px;
+    }
+    
+    .perfil-img{
+        width: 100%;
+        max-width: 350px;
+        border-radius: 50%;
+    }
+    
+    .perfil {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        max-width: 980px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    
+    .perfil-titulo{
+        font-size: 60px;
+    }
+    
+    .perfil-detalles{
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 1.3;
+        max-width: 450px;
+        margin: 30px 0;
+    }
+    
+    .perfil-btn {
+        font-size: 28px;
+        padding: 0.5em 1em;
+
+    }
+
+}

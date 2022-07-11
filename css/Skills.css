@@ -1,0 +1,37 @@
+section.skills{
+    margin: 64px 100px;
+}
+
+section.skills h3.skills__titulo{
+    font-size: 40px;
+    text-align: center;
+    color: var(--color-primario);
+}
+
+section.skills div.skills__linea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+section.skills div.skills__cajas{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    background-color: var(--color-secundario);
+    margin: 22px 15px 22px 0px;
+    width: 150px;
+    height: 160px;
+}
+
+section.skills div.skills__cajas ul{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-texto);
+}
